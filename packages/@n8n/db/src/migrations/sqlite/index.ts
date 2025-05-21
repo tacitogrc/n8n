@@ -82,8 +82,8 @@ import { RenameAnalyticsToInsights1741167584277 } from '../common/1741167584277-
 import { AddWorkflowStatisticsRootCount1745587087521 } from '../common/1745587087521-AddWorkflowStatisticsRootCount';
 import { AddWorkflowArchivedColumn1745934666076 } from '../common/1745934666076-AddWorkflowArchivedColumn';
 import { DropRoleTable1745934666077 } from '../common/1745934666077-DropRoleTable';
+import { AddProjectDescriptionColumn1747824239000 } from '../common/1747824239000-AddProjectDescriptionColumn';
 import type { Migration } from '../migration-types';
-
 const sqliteMigrations: Migration[] = [
 	InitialMigration1588102412422,
 	WebhookModel1592445003908,
@@ -169,6 +169,7 @@ const sqliteMigrations: Migration[] = [
 	AddWorkflowStatisticsRootCount1745587087521,
 	AddWorkflowArchivedColumn1745934666076,
 	DropRoleTable1745934666077,
+	AddProjectDescriptionColumn1747824239000,
 ];
 
 export { sqliteMigrations };
